@@ -1,0 +1,99 @@
+body{
+  background-image: url(MEDIA/background.jpg);
+  background-size: cover;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  z-index: -1;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.banner{
+  position: absolute;
+  height: 670px;
+  width: 1000px;
+  z-index: -1;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 50%;
+}
+
+main{
+  position: relative;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+
+#logo{
+  margin-top: 50px;
+  max-width: 20%;
+  top: 25px;
+}
+
+header{
+  margin-top: 40px;
+  font-size: 15px;
+  color: lime;
+  text-align: center;
+}
+
+header h1{
+  margin-top: 0px;
+}
+
+header nav{
+  height: 35px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lime;
+  margin-top: -15px;
+}
+
+header input{
+  margin: 5px;
+}
+
+.gino22{
+  margin-top: 20px;
+}
+
+.mike24{
+  margin-top: 20px;
+}
+
+.fede154{
+  margin-top: 20px;
+}
+
+.monopattino .carica-arancio{
+  height: 30px;
+  width: 280px;
+  border-radius: 6px;
+  margin-top: -15px;
+  background-color: orange;
+}
+
+.monopattino .carica-verde{
+  height: 30px;
+  width: 540px;
+  border-radius: 6px;
+  margin-top: -15px;
+  background-color: lime;
+}
+
+.monopattino .carica-rosso{
+  height: 30px;
+  width: 140px;
+  border-radius: 6px;
+  margin-top: -15px;
+  background-color: rgb(214, 52, 52);
+}
+
+
